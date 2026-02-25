@@ -35,10 +35,41 @@
   <span id="swings">
     You see swings on your left. Want to swing?
   </span>
-
   <img id="playground" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpR7EpUbmQZJcc8OCZrq8qCGnqDyg4XwhW3A&amp;s" alt="Playground at night">
+ 
+     #playground {
+  max-width: 400px;
+  border: 2px solid black;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}  
+#swings a,
+.slides a {
+  text-decoration: none;  
+  color: white;      
+  background-color: black;   
+  border: 2px solid white;  
+  padding: 12px 20px;
+  font-family: Georgia, serif;
+  letter-spacing: 1px;
+  display: inline-block;      
+  transition: all 0.3s ease;
+}
 
-  <span class="slides">
+#swings a:link,
+#swings a:visited,
+.slides a:link,
+.slides a:visited {
+  color: white;
+}
+
+#swings a:hover,
+.slides a:hover {
+  background-color: white;
+  color: black;
+}
+     <span class="slides">
   <a href="slides.html">There is a large slide to your right. Go?</a>
 </span>
 </div>
