@@ -30,7 +30,7 @@
   background: white;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
-#Image {
+#BorderImage {
   max-width: 400px;
   border: 2px solid black;
   padding: 15px;
